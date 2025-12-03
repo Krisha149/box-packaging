@@ -57,8 +57,8 @@ export function Navbar() {
         transition={{ duration: 0.5 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           isScrolled
-            ? "bg-secondary/98 backdrop-blur-md shadow-lg"
-            : "bg-secondary/80 backdrop-blur-sm"
+            ? "bg-keshar-dark/95 backdrop-blur-md shadow-lg border-b border-primary/20"
+            : "bg-keshar-dark/90 backdrop-blur-sm"
         }`}
       >
         <div className="container-wide">
@@ -145,7 +145,7 @@ export function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3 }}
-            className="fixed top-16 left-0 right-0 z-40 bg-secondary/98 backdrop-blur-lg lg:hidden border-t border-border"
+            className="fixed top-16 left-0 right-0 z-40 bg-keshar-dark/98 backdrop-blur-lg lg:hidden border-t border-primary/20"
           >
             <div className="container-wide py-4">
               <div className="flex flex-col gap-2">
